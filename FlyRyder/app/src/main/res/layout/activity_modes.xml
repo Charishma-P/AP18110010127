@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/mode"
+        android:scaleType="centerCrop"/>
+
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#EEEBF3"
+        android:text="Forest"
+        android:id="@+id/forest"
+        android:background="@drawable/btn_shape"/>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/forest"
+        android:layout_marginTop="10dp"
+        android:textSize="40dp"
+        android:textColor="#FAFAFB"
+        android:layout_centerHorizontal="true"
+        android:text="Desert"
+        android:id="@+id/desert"
+        android:background="@drawable/btn_shape"/>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/desert"
+        android:layout_marginTop="10dp"
+        android:textSize="40dp"
+        android:id="@+id/iceland"
+        android:textColor="#FAFAFB"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_shape"
+        android:text=" Ice Land " />
+
+    <Button
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iceland"
+        android:layout_marginTop="10dp"
+        android:textSize="40dp"
+        android:textColor="#FAFAFB"
+        android:id="@+id/highcity"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_shape"
+        android:text=" High City " />
+
+
+
+</RelativeLayout>

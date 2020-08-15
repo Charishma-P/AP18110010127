@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bgd1"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="40sp"
+        android:text="High_score"
+        android:textColor="#070707"
+        android:textSize="30sp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="3dp"
+        android:fontFamily="cursive"
+        android:id="@+id/highScoreTxt"/>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text=" Play "
+        android:textSize="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#EEEBF3"
+        android:background="@drawable/btn_shape"
+        android:id="@+id/play"/>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/play"
+        android:layout_marginTop="10dp"
+        android:textSize="45dp"
+        android:textColor="#FAFAFB"
+        android:id="@+id/modes"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_shape"
+        android:text=" Modes " />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/modes"
+        android:layout_marginTop="10dp"
+        android:textSize="45dp"
+        android:id="@+id/help"
+        android:textColor="#FAFAFB"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_shape"
+        android:text=" Help " />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/help"
+        android:layout_marginTop="10dp"
+        android:textSize="45dp"
+        android:textColor="#FAFAFB"
+        android:id="@+id/exit"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_shape"
+        android:text=" Exit " />
+
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="25dp"
+        android:id="@+id/volumeCtrl"
+        android:soundEffectsEnabled="true"
+        android:src="@drawable/ic_volume_up_black_24dp"/>
+
+
+</RelativeLayout>
